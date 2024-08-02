@@ -49,7 +49,7 @@ class WebApplication:
         field = await reader.next()
         assert field.name == 'file'
         filename = field.filename
-        upload_dir = './uploads'  # 设置保存文件的目录
+        upload_dir = './files'  # 设置保存文件的目录
         os.makedirs(upload_dir, exist_ok=True)  # 确保目录存在，如果不存在则创建
         file_path = os.path.join(upload_dir, filename)
         with open(file_path, 'wb') as f:

