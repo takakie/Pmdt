@@ -30,7 +30,7 @@ date: 2024-07-30
 Pmdt>$ python ./echopanel.py -p 8111
 ```
 
-![image-20240731105216182](E:\Projects\PycharmProjects\Pmdt\image-20240731105216182.png)
+![image-20240731105216182](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731105216182.png?x-oss-process=style/img-to-webp)
 
 ## 2.2.启动命令发送端
 
@@ -49,7 +49,7 @@ Pmdt>$ python ./echopanel.py -p 8111
 # 192.168.100.1 和 8111 为监听面板的参数
 ```
 
-![image-20240731164220532](E:\Projects\PycharmProjects\Pmdt\image-20240731164220532.png)
+![image-20240731164220532](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731164220532.png?x-oss-process=style/img-to-webp)
 
 ```ini
 # request.txt 
@@ -65,31 +65,31 @@ Connection: close
 - 存在命令注入漏洞的测试文件为test/httpweb2.py，可用于测试
 - 启动测试文件
 
-![image-20240731164735399](E:\Projects\PycharmProjects\Pmdt\image-20240731164735399.png)
+![image-20240731164735399](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731164735399.png?x-oss-process=style/img-to-webp)
 
 ## 2.3.发送命令请求演示
 
-![image-20240731165157176](E:\Projects\PycharmProjects\Pmdt\image-20240731165157176.png)
+![image-20240731165157176](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731165157176.png?x-oss-process=style/img-to-webp)
 
 面板回显
 
-![image-20240731165231897](E:\Projects\PycharmProjects\Pmdt\image-20240731165231897.png)
+![image-20240731165231897](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731165231897.png?x-oss-process=style/img-to-webp)
 
 ## 2.4.文件上传演示
 
 1. 将需要上传的文件移动到files文件夹下，例如Expx.java
 2. 输入upload关键词 + 上传的文件名，+上传文件要存放到目标服务器的位置以及命名文件
 
-![image-20240731172324071](E:\Projects\PycharmProjects\Pmdt\image-20240731172324071.png)
+![image-20240731172324071](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731172324071.png?x-oss-process=style/img-to-webp)
 
-![image-20240731171031795](E:\Projects\PycharmProjects\Pmdt\image-20240731171031795.png)
+![image-20240731171031795](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731171031795.png?x-oss-process=style/img-to-webp)
 
 ## 2.5.文件下载测试
 
 1. 触发关键词 download，+文件绝对路径。
 
-![image-20240731173333472](E:\Projects\PycharmProjects\Pmdt\image-20240731173333472.png)
+![image-20240731173333472](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731173333472.png?x-oss-process=style/img-to-webp)
 
-![image-20240731175335544](E:\Projects\PycharmProjects\Pmdt\image-20240731175335544.png)
+![image-20240731175335544](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731175335544.png?x-oss-process=style/img-to-webp)
 
-![image-20240731175346063](E:\Projects\PycharmProjects\Pmdt\image-20240731175346063.png)
+![image-20240731175346063](https://hongkong-img.oss-cn-hongkong.aliyuncs.com/markdown-img/image-20240731175346063.png?x-oss-process=style/img-to-webp)
